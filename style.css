@@ -24,14 +24,51 @@ h1{
     border: 2px solid;
     border-color: black;
     margin: 2%;
-    padding: 1rem;
+    padding: 1%;
     box-shadow: .9rem .9rem  lightblue;
     justify-content: space-around;
 }
 
+#first-card:hover{
+    background-color: red;
+    transition-duration: 1s;
+}
+#second-card:hover{
+    background-color: blue;
+    transition-duration: 10s;
+}
+#third-card:hover{
+    background-color: yellow;
+    transition-duration: 3s;
+}
+#fourth-card:hover{
+    background-color: yellow;
+    transition-duration: 5s;
+}
+#fifth-card:hover{
+    background-color: aquamarine;
+    transition-duration: 4s;
+}
+#sixth-card:hover{
+    background-color: aquamarine;
+    transition-duration: 4s;
+}
+#seventh-card:hover{
+    background-color: blue;
+}
+#eighth-card:hover{
+    background-color:black;
+}
+#ninth-card:hover{
+    background-color:purple;
+}
 
 .img{
-    height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.card-desc{
+    text-align: center;
+    font-size: 1.3vw;
 }
