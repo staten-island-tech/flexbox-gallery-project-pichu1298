@@ -8,7 +8,7 @@ html,
 
 h1{
     text-align: center;
-    font-size: 2vw;
+    font-size: 100%;
     font-family: "Quicksand", sans-serif;
 }
 .container{
@@ -28,39 +28,47 @@ h1{
     box-shadow: .9rem .9rem  lightblue;
     justify-content: space-around;
 }
-
 #first-card:hover{
     background-color: red;
     transition-duration: 1s;
+    transform: rotateX(360deg) translate(10px, -10px);
 }
 #second-card:hover{
     background-color: blue;
-    transition-duration: 10s;
+    transition-duration: 3s;
+    transform: rotate(360deg) translate(-10px, -10px);
 }
 #third-card:hover{
     background-color: yellow;
     transition-duration: 3s;
+    transform: rotateY(360deg) translateY(-10px);
 }
 #fourth-card:hover{
     background-color: yellow;
     transition-duration: 5s;
+    transform: scale(2.2) translateX(50%);
 }
 #fifth-card:hover{
     background-color: aquamarine;
     transition-duration: 4s;
+    transform: scale(.5) translate(10px, -10px);
 }
 #sixth-card:hover{
     background-color: aquamarine;
     transition-duration: 4s;
+    transform: translate(10px, -10px);
 }
 #seventh-card:hover{
     background-color: blue;
+    transform: translate(10px, -10px);
 }
 #eighth-card:hover{
     background-color:black;
+    transform: translate(10px, -10px);
 }
 #ninth-card:hover{
     background-color:purple;
+    transform: translate(10px, -10px);
 }
 
 .img{
@@ -72,3 +80,24 @@ h1{
     text-align: center;
     font-size: 1.3vw;
 }
+
+@media screen and (max-width: 1100px){
+    .container{
+        flex-direction:row;
+        align-items: center;
+    }
+    .card{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
+}
+
