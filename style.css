@@ -66,9 +66,16 @@ h1{
     background-color:black;
     transform: translate(10px, -10px);
 }
-#ninth-card:hover{
-    background-color:purple;
-    transform: translate(10px, -10px);
+
+@keyframes colorChange{
+    0%   {background-color: red;}
+    20%  {background-color: yellow;}
+    40%  {background-color: blue;}
+    60% {background-color: green;}
+    100%  {background-color: red;}
+}
+#ninth-card{
+    animation: colorChange 7s infinite;
 }
 
 .img{
