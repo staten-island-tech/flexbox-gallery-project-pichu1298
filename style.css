@@ -20,11 +20,11 @@ h1{
     flex-wrap: wrap;
 }
 .card{
-    width: 26%;
+    width: 22%;
     border: 2px solid;
     border-color: black;
-    margin: 2%;
-    padding: 1%;
+    margin: 1%;
+    padding: 0%;
     box-shadow: .9rem .9rem  lightblue;
     justify-content: space-around;
 }
