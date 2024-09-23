@@ -20,10 +20,10 @@ h1{
     flex-wrap: wrap;
 }
 .card{
-    width: 22%;
+    width: 21%;
     border: 2px solid;
     border-color: black;
-    margin: 1%;
+    margin: 2%;
     padding: 0%;
     box-shadow: .9rem .9rem  lightblue;
     justify-content: space-around;
@@ -46,7 +46,7 @@ h1{
 #fourth-card:hover{
     background-color: yellow;
     transition-duration: 5s;
-    transform: scale(150%) translateX(-50%);
+    transform: scale(2) translate(-5em, 5em);
 }
 #fifth-card:hover{
     background-color: aquamarine;
