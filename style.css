@@ -84,7 +84,7 @@ h1{
 
 .card-desc{
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1100px){
