@@ -16,15 +16,14 @@ h1{
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 .card{
     width: 21%;
-    border: 2px solid;
+    border: .1rem solid;
     border-color: black;
     margin: 2%;
-    padding: 0%;
+    padding: 0;
     box-shadow: .9rem .9rem  lightblue;
     justify-content: space-around;
 }
